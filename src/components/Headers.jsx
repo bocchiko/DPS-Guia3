@@ -56,6 +56,11 @@ export const Header = ({
                                             <span className='precio-productocarrito'>
                                                 ${product.price}
                                             </span>
+                                            <span className='foto-producto'>
+                                                <figure>
+                                                    <img src={product.urlImage} />
+                                                </figure>
+                                            </span>
                                         </div>
                                         <img
                                             src="https://static.vecteezy.com/system/resources/previews/018/887/462/original/signs-close-icon-png.png"
